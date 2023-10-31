@@ -7,7 +7,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
 # Data collection
-driver_path = "C:/Users/nagpa/chromedriver.exe"
+driver_path = "chromedriver.exe"
 site = "https://www.iitg.ac.in/iitg_faculty_all"
 
 # VectorDB
