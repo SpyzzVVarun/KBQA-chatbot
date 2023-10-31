@@ -1,0 +1,9 @@
+Rhythm Grover
+Assistant Professor
+  +91 361 258 3503
+  rhythmgrover @ iitg ⋅ ac ⋅ in
+Research Interest:
+Efficient Algorithms for parameter estimation of signal processing models, Statistical properties of classical parameter estimation methods, Robust methods of parameter estimation in presence of outliers in the data.
+Personal Website | Vidwan Profile
+Department/Centre/School
+Mehta Family School of Data Science and Artificial Intelligence
