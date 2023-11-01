@@ -8,22 +8,21 @@ from constants import *
 from utils import *
 from prompts import *
 
-st.subheader("IIT Guwahati Faculty Information Chatbot")
+st.subheader("KBQA Chatbot")
 
+# Initializing session state
 if 'responses' not in st.session_state:
     st.session_state['responses'] = ["How can I assist you?"]
 
 if 'requests' not in st.session_state:
     st.session_state['requests'] = []
 
+if 'buffer_memory' not in st.session_state:
+    st.session_state['buffer_memory'] = ConversationBufferWindowMemory(k=3,return_messages=True)
 
 llm = ChatOpenAI(model_name=CHAT_MODEL, openai_api_key = OPENAI_API_KEY)
-if 'buffer_memory' not in st.session_state:
-    st.session_state.buffer_memory=ConversationBufferWindowMemory(k=3,return_messages=True)
-
-
-
 conversation = ConversationChain(memory=st.session_state.buffer_memory, prompt=prompt_template, llm=llm, verbose=True)
+
 # container for chat history
 response_container = st.container()
 # container for text box
@@ -37,8 +36,8 @@ with textcontainer:
             conversation_string = get_conversation_string()
             # st.code(conversation_string)
             refined_query = query_refiner(conversation_string, query)
-            st.subheader("Refined Query:")
-            st.write(refined_query)
+            # st.subheader("Refined Query:")
+            # st.write(refined_query)
             context = find_match(refined_query)
             # print(context)  
             response = conversation.predict(input=f"Context:\n {context} \n\n Query:\n{query}")

@@ -1,13 +1,13 @@
 import pinecone
-from langchain.embeddings import SentenceTransformerEmbeddings
+from langchain.embeddings import SentenceTransformerEmbeddings, HuggingFaceEmbeddings, HuggingFaceBgeEmbeddings
 from langchain.vectorstores import Pinecone
 from constants import index_name, PINECONE_API_KEY, ENV, EMB_MODEL
 from data_loading_utils import *
 
-directory = '/content/data'
+directory = '/content/demo'
 documents = load_docs(directory)
 docs = split_docs(documents)
-embeddings = SentenceTransformerEmbeddings(model_name= EMB_MODEL)
+embeddings = HuggingFaceBgeEmbeddings(model_name = EMB_MODEL)
 
 
 # initialize pinecone

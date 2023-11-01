@@ -1,11 +1,12 @@
 from sentence_transformers import SentenceTransformer
+from langchain.embeddings import HuggingFaceBgeEmbeddings
 import pinecone
 import openai
 import streamlit as st
 from constants import *
 
 openai.api_key = OPENAI_API_KEY
-emb_model = SentenceTransformer(EMB_MODEL)
+emb_model = HuggingFaceBgeEmbeddings(model_name = EMB_MODEL) # SentenceTransformer(EMB_MODEL)
 pinecone.init(
     api_key= PINECONE_API_KEY,
 	environment=ENV
@@ -13,9 +14,12 @@ pinecone.init(
 index = pinecone.Index(index_name)
 
 def find_match(input):
-    input_em = emb_model.encode(input).tolist()
-    result = index.query(input_em, top_k=2, includeMetadata=True)
-    return result['matches'][0]['metadata']['text']+"\n"+result['matches'][1]['metadata']['text']
+    input_em = emb_model.embed_query(input) #encode
+    result = index.query(input_em, top_k=TOP_K, includeMetadata=True)
+    context = ""
+    for i in range(TOP_K):
+       context += result['matches'][i]['metadata']['text']+"\n"
+    return context
 
 def query_refiner(conversation, query):
 
