@@ -6,3 +6,4 @@ pypdf
 unstructured
 unstructured[local-inference]
 pinecone-client
+arxiv

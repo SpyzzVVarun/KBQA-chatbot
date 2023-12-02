@@ -1,9 +1,0 @@
-Chandan Karfa
-Associate Professor
-  91-361-2582375
-  ckarfa @ iitg ⋅ ac ⋅ in
-Research Interest:
-Formal Verification, High-level Synthesis, Electronic Design Automation, Hardware Security, Verification of Compiler Optimizations.
-Personal Website | Vidwan Profile
-Department/Centre/School
-Computer Science and Engineering

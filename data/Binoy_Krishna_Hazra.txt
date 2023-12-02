@@ -1,9 +1,0 @@
-Binoy Krishna Hazra
-Assistant Professor
-  0361-258-3569
-  bkhazra @ iitg ⋅ ac ⋅ in
-Research Interest:
-My research endeavors primarily aim to use chiral non-collinear spin textures for next-generation spintronic devices. In particular, we are focused on the generation of spin current from non-collinear antiferromagnets and the electrical manipulation of such antiferromagnets for magnetic random access memory applications. Usually, we utilize the spin current from the proximal layer or even from the same layer to switch the magnetization of the magnetic materials. We are also interested in minimizing the joule heating in current-induced magnetization switching using superconductor-non-collinear antiferromagnet heterostructures which will further lead to dissipationless spintronic memory devices.
-Personal Website | Vidwan Profile
-Department/Centre/School
-Physics

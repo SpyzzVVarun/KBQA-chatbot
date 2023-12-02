@@ -1,9 +1,0 @@
-Palash Ghosh
-Assistant Professor
-  +91 (0)361 258 3729
-  palash.ghosh @ iitg ⋅ ac ⋅ in
-Research Interest:
-Q-learning (Reinforcement Learning) and Dynamic Treatment Regime (DTR), Personalized Medicine, Biased Sampled Data, Multi-Sample Likelihood, Case-Control Study, Design and Analysis of Clinical Trials, Analysis of Electronic Medical Records Data and other areas of Statistics
-Personal Website | Vidwan Profile
-Department/Centre/School
-Mathematics

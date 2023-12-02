@@ -1,12 +1,12 @@
 from sentence_transformers import SentenceTransformer
-from langchain.embeddings import HuggingFaceBgeEmbeddings
+from langchain.embeddings import HuggingFaceBgeEmbeddings, OpenAIEmbeddings
 import pinecone
 import openai
 import streamlit as st
 from constants import *
 
 openai.api_key = OPENAI_API_KEY
-emb_model = HuggingFaceBgeEmbeddings(model_name = EMB_MODEL) # SentenceTransformer(EMB_MODEL)
+emb_model = OpenAIEmbeddings() # SentenceTransformer(EMB_MODEL)
 pinecone.init(
     api_key= PINECONE_API_KEY,
 	environment=ENV

@@ -1,9 +1,0 @@
-Arghyadip Roy
-Assistant Professor
-  +91-361-258-3505
-  arghyadip @ iitg ⋅ ac ⋅ in
-Research Interest:
-Optimization and Control of Stochastic Systems, Reinforcement Learning, Markov Decision Process, Multi-armed Bandit, Stochastic Approximation, Resource Allocation in Communication Networks, Application of Reinforcement learning in Wireless Communication.
-Personal Website | Vidwan Profile
-Department/Centre/School
-Mehta Family School of Data Science and Artificial Intelligence

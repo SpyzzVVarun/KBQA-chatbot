@@ -1,9 +1,0 @@
-Arabin Kumar Dey
-Associate Professor
-  +91 (0)361 258 2620
-  arabin @ iitg ⋅ ac ⋅ in
-Research Interest:
-Distributions Models and Its Applications: My primary research interest falls in the area of distributions, models and its applications. My main focus was on discrimination among several univariate and bivariate lifetime distributions . One of the fundamental aspect of parametric approach is to model the data with proper distribution. Often it is assumed that data are coming from a specific parametric family and the rest of the analysis are done based on that model assumption. But choosing a particular model is quite difficult and the effect due to model mis-specification can be severe. Therefore research toward discriminating distributions is utmost important.
-Personal Website | Vidwan Profile
-Department/Centre/School
-Mathematics Mehta Family School of Data Science and Artificial Intelligence

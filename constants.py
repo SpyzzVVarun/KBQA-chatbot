@@ -17,9 +17,9 @@ index_name = "chatbot-demo"
 ENV = 'gcp-starter'
 CHUNK_SIZE = 3000
 CHUNK_OVERLAP = 20
-TOP_K = 10
+TOP_K = 1
 
 # Models 
-EMB_MODEL = "BAAI/llm-embedder"
+EMB_MODEL = "text-embedding-ada-002"
 QUERY_MODEL = "text-davinci-003"
 CHAT_MODEL = "gpt-3.5-turbo"
